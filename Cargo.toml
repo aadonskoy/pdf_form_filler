@@ -1,0 +1,11 @@
+[package]
+name = "pdf_form_filler"
+version = "0.0.1"
+authors = ["oleksiidonskoi"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.7.5"
+pdf_form_ids = "0.4.0"
