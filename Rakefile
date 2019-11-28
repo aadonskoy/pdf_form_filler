@@ -4,4 +4,4 @@ import 'lib/tasks/pdf_form_filler.rake'
 
 RSpec::Core::RakeTask.new(:spec)
 
-task default: :spec
+task default: %i[build spec]

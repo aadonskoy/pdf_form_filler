@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_dependency "helix_runtime", "~> 0.7.5"
+  spec.extensions = %w[ext/pdf_form_filler/extconf.rb]
 end
